@@ -23,8 +23,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
-- Live Site URL: [Live site](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/charlsoluwapelumi/intro-section-with-dropdown-navigation)
+- Live Site URL: [Live site](https://charlsoluwapelumi.github.io/intro-section-with-dropdown-navigation/)
 
 ## My process
 
