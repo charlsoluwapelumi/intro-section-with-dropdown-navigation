@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+  <header>
+    <img class="menu-open" src="./images/icon-menu.svg" alt="menu icon">
+    <nav class="nav" data-visible="false">
+      
+      <ul class="navigation">
+        <li><img class="logo" src="./images/logo.svg" alt="Logo"></li>
+        <li><a href="#" id="features">Features <img src="./images/icon-arrow-down.svg" alt="arrow icon"></a></li>
+        <li><a href="#" id="company">Company <img src="./images/icon-arrow-down.svg" alt="arrow icon"></a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+
+      <div class="right-section">
+        <a href="#" class="btn">Login</a>
+        <a href="#" class="btn register" id="register">Register</a>
+      </div>
+
+    </nav>
+  </header>
+  
+  <main>
+
+    <div class="hero-image-two">
+      <img src="./images/image-hero-mobile.png" alt="">
+    </div>
+
+    <div class="left-main">
+      <h1>Make remote work</h1>
+
+      <p>Get your team in sync, no matter your location. Streamline processes, 
+      create team rituals, and watch productivity soar.</p>
+
+      <button>Learn more</button>
+
+      <div class="clients">
+        <img src="./images/client-databiz.svg" alt="databiz logo">
+        <img src="./images/client-audiophile.svg" alt="databiz logo">
+        <img src="./images/client-meet.svg" alt="databiz logo">
+        <img src="./images/client-maker.svg" alt="databiz logo">
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <img src="./images/image-hero-desktop.png" alt="hero-image">
+    </div>
+  </main>
+
+  <div class="feature-blog hidden">
+    <p><img src="./images/icon-todo.svg" alt="">Todo List</p>
+    <p><img src="./images/icon-calendar.svg" alt="">Calender</p>
+    <p><img src="./images/icon-reminders.svg" alt="">Reminders</p>
+    <p><img src="./images/icon-planning.svg" alt="">Planning</p>
+  </div>
+  
+  <div class="company-blog hidden">
+    <p>History</p>
+    <p>Our Team</p>
+    <p>Blog</p>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/charlsoluwapelumi">Sns_Charmie</a>.
+  </div>
+
+  <script src="./index.js"></script>
+</body>
+</html>
